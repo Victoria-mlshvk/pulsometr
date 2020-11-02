@@ -1,0 +1,234 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 800px;
+    }
+    .reasons {
+        padding: 60px 0 75px 0;
+        &__wrapper {
+            margin-top: 55px;
+            width: 800px;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        width: 650px;
+    }
+    .header {
+        &__logo {
+            width: 160px;
+        }
+        &__official {
+            font-size: 11px;
+            span {
+                font-size: 16px;
+                margin-top: 7px;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .promo {
+        background-position: 0% 0%;
+        background-size: 1500px auto;
+        padding-top: 14px;
+        padding-bottom: 20px;
+        min-height: auto;
+        &__wrapper {
+            margin-top: 70px;
+        }
+        &__header {
+            font-size: 32px;
+        }
+        &__subheader {
+            font-size: 18px;
+            margin-top: 9px;
+        }
+        &__icons {
+            margin-top: 45px;
+            width: 330px;
+            font-size: 10px;
+        }
+        &__icon {
+            width: 80px;
+            img {
+                margin-bottom: 12px;
+            }
+        }
+        &__link {
+            font-size: 13px;
+            margin-top: 12px;
+        }
+    }
+    .button_main {
+        margin-top: 45px;
+        width: 250px;
+        font-size: 15px;
+    }
+    .reasons {
+        padding: 50px 0 65px 0;
+        &__wrapper {
+            width: 670px;
+            margin-top: 45px;
+        }
+        &__header {
+            font-size: 28px;
+        }
+        &__items {
+            width: 200px;
+            &__header {
+                font-size: 16px;
+                margin-top: 28px;
+            }
+            &__descr {
+                font-size: 13px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 530px;
+    }
+    .header {
+        &__logo {
+            width: 140px;
+        }
+        &__official {
+            span {
+                font-size: 15px;
+                margin-top: 4px;
+            }
+        }
+        &__phone {
+            font-size: 12px;
+        }
+        .button_media {
+            width: 125px;
+            height: 22px;
+            margin-top: 2px;
+            font-size: 10px;
+        }
+    }
+    .promo {
+        background-size: 1300px auto;
+        padding-top: 10px;
+        &__header {
+            font-size: 28px;
+        }
+        &__subheader {
+            font-size: 15px;
+            margin-top: 0;
+        }
+        &__icons {
+            margin-top: 25px;
+            width: 280px;
+            font-size: 10px;
+        }
+        &__icon {
+            width: 78px;
+            img {
+                margin-bottom: 9px;
+            }
+        }
+        &__link {
+            font-size: 11px;
+            margin-top: 17px;
+        }
+        .button_main {
+            margin-top: 30px;
+            width: 240px;
+            height: 40px;
+            font-size: 14px;
+        }
+    }
+    .reasons {
+        padding: 40px 0 55px 0;
+        &__wrapper {
+            width: 540px;
+            margin-top: 35px;
+        }
+        &__header {
+            font-size: 22px;
+        }
+        &__items {
+            width: 165px;
+            img {
+                width: 55px;
+            }
+            &__header {
+                font-size: 14px;
+                margin-top: 22px;
+            }
+            &__descr {
+                font-size: 12px;
+                margin-top: 15px;
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        width: 300px;
+    }
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin: 65px auto 0 auto;
+            text-align: center;
+        }
+        &__header {
+            font-size: 28px;
+            line-height: 32px;
+        }
+        &__subheader {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        &__icons {
+            margin-top: 18px;
+        }
+        &__link {
+            font-size: 10px;
+            margin: 15px auto 0 auto;
+        }
+        .button_main {
+            margin: 25px auto 0 auto;
+            width: 220px;
+            font-size: 13px;
+        }
+    }
+    .reasons {
+        padding: 30px 0 45px 0;
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+            margin-top: 0;
+        }
+        &__header {
+            font-size: 18px;
+        }
+        &__items {
+            width: 220px;
+            margin-top: 25px;
+            img {
+                width: 55px;
+            }
+            &__header {
+                font-size: 14px;
+                margin-top: 22px;
+            }
+            &__descr {
+                font-size: 12px;
+                margin-top: 15px;
+            }
+        }
+    }
+}
