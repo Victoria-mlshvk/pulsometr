@@ -9,6 +9,12 @@
             width: 800px;
         }
     }
+    .carousel .next, .carousel .prev {
+        display: none;
+    }
+    .catalog__content {
+        justify-content: space-evenly;
+    }
 }
 @media (max-width: 991px) {
     .container {
@@ -87,6 +93,7 @@
             }
         }
     }
+    
 }
 @media (max-width: 767px) {
     .container {
@@ -168,6 +175,54 @@
             }
         }
     }
+    .title {
+        font-size: 25px;
+    }
+    .consultation {
+        padding: 55px 0 40px 0;
+        &__descr {
+            margin-top: 50px;
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 45px;
+        }
+        &__tab {
+            font-size: 15px;
+            width: 150px;
+        }
+    }
+    .reviews__img {
+        img {
+            width: 180px;
+        }
+    }
+    .footer {
+        height: auto;
+        &__info {
+            width: 380px;
+            height: 200px;
+            padding: 35px;
+        }
+        &__addr {
+            font-size: 16px;
+            margin-bottom: 22px;
+        }
+        &__phone {
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+        &__social {
+            width: 150px;
+            img {
+                width: 40px;
+            }
+        }
+        &__map {
+            height: 500px;
+        }
+    }
 }
 @media (max-width: 575px) {
     .container {
@@ -229,6 +284,82 @@
                 font-size: 12px;
                 margin-top: 15px;
             }
+        }
+    }
+    .title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .consultation {
+        padding: 45px 0;
+        &__descr {
+            margin-top: 35px;
+            font-size: 16px;
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 30px;
+        }
+        &__tab {
+            font-size: 9px;
+            line-height: 40px;
+            height: 40px;
+            width: 100px;
+        }
+        &__content {
+            margin-top: 45px;
+        }
+    }
+    .reviews {
+        padding: 70px 0 61px 0;
+    &__item {
+        margin-top: 50px;
+        &:nth-child(2) {
+            margin-top: 35px;
+        }
+    }
+    &__img {
+        margin-right: 20px;
+        img {
+            width: 75px;
+            }
+        }
+    &__text {
+        &__name {
+            font-size: 16px;
+        }
+        &__subname {
+            font-size: 12px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
+    }
+    .footer {
+        height: auto;
+        &__info {
+            width: 280px;
+            height: 160px;
+            padding: 20px;
+        }
+        &__addr {
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+        &__phone {
+            font-size: 15px;
+            margin-bottom: 18px;
+        }
+        &__social {
+            width: 130px;
+            img {
+                width: 35px;
+            }
+        }
+        &__map {
+            height: 500px;
         }
     }
 }

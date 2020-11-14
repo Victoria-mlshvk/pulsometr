@@ -2,12 +2,36 @@
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
 .container {
+    position: relative;
     max-width: 950px;
     margin: 0 auto;
 }
+.title {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #0d0d0d;
+    text-align: center;
+    text-transform: uppercase;
+    &_left {
+    font-size: 36px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: left;
+    }
+}
 @import 'base/variables';
+@import 'base/animations';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/reasons';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/review';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
 @import 'base/media';
